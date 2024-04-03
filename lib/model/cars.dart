@@ -13,6 +13,8 @@ class Car {
   Color colorFavoriteCarsButton;
   bool statusCartCarsButton;
   Color colorCartCarsButton;
+  bool isButtonDisabled;
+  int count;
 
   Car(
       this.id,
@@ -26,7 +28,9 @@ class Car {
       this.statusFavoriteCarsSButton,
       this.colorFavoriteCarsButton,
       this.statusCartCarsButton,
-      this.colorCartCarsButton
+      this.colorCartCarsButton,
+      this.isButtonDisabled,
+      this.count
       );
 }
 List<Car> carsList =
@@ -53,7 +57,9 @@ List<Car> carsList =
     false,
     Colors.grey,
     false,
-    Colors.grey
+    Colors.grey,
+    true,
+  1
 ),
   Car(1,
       'Лада Гранта',
@@ -78,7 +84,9 @@ List<Car> carsList =
       false,
       Colors.grey,
       false,
-      Colors.grey
+      Colors.grey,
+      true,
+      1
   ),
   Car(2,
       'Лада Нива Тревел',
@@ -103,7 +111,9 @@ List<Car> carsList =
       false,
       Colors.grey,
       false,
-      Colors.grey
+      Colors.grey,
+      true,
+      1
   ),
   Car(3,
       'Лада Нива Легенд',
@@ -128,7 +138,9 @@ List<Car> carsList =
       false,
       Colors.grey,
       false,
-      Colors.grey
+      Colors.grey,
+      true,
+      1
   ),
   Car(4,
       'Москвич 3',
@@ -153,7 +165,9 @@ List<Car> carsList =
       false,
       Colors.grey,
       false,
-      Colors.grey
+      Colors.grey,
+      true,
+      1
   ),
   Car(5,
       'УАЗ Патриот',
@@ -178,7 +192,9 @@ List<Car> carsList =
       false,
       Colors.grey,
       false,
-      Colors.grey
+      Colors.grey,
+      true,
+      1
   ),
   Car(6,
       'УАЗ Буханка',
@@ -203,7 +219,9 @@ List<Car> carsList =
       false,
       Colors.grey,
       false,
-      Colors.grey
+      Colors.grey,
+      true,
+      1
   ),
   Car(7,
       'УАЗ Пикап',
@@ -228,7 +246,9 @@ List<Car> carsList =
       false,
       Colors.grey,
       false,
-      Colors.grey
+      Colors.grey,
+      true,
+      1
   ),
   Car(8,
       'Москвич 6',
@@ -253,7 +273,9 @@ List<Car> carsList =
       false,
       Colors.grey,
       false,
-      Colors.grey
+      Colors.grey,
+      true,
+      1
   ),
   Car(9,
       'УАЗ Хантер',
@@ -278,6 +300,8 @@ List<Car> carsList =
       false,
       Colors.grey,
       false,
-      Colors.grey
+      Colors.grey,
+      true,
+      1
   ),
 ];

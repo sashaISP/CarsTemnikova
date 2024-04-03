@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:temnikova_cars/components/example_bottom_app_bar.dart';
-import 'package:temnikova_cars/components/example_grid_view.dart';
+import 'package:temnikova_cars/components/example_grid_view_favorite.dart';
 import 'package:temnikova_cars/model/favorite.dart';
 
 class FavoriteCars extends StatefulWidget {
@@ -21,8 +21,8 @@ class _FavoriteCars extends State<FavoriteCars> {
         child: GridView.builder(
           itemCount: favoriteCars.length,
           itemBuilder: (BuildContext context, index) {
-            return ExampleGridView(
-              idCar: favoriteCars[index].id,
+            return ExampleGridViewFavorite(
+              carId: favoriteCars[index].id,
               update: update,
             );
           },

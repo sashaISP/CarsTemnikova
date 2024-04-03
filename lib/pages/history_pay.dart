@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:temnikova_cars/components/example_bottom_app_bar.dart';
-import '../components/grid_view_history_pay_sample.dart';
+import '../components/example_grid_view_history_pay.dart';
 import '../model/history_pay_list.dart';
 
 class HistoryPay extends StatefulWidget {
@@ -24,7 +24,7 @@ class _HistoryPay extends State<HistoryPay> {
               mainAxisSpacing: 5),
           itemCount: historyPayCars.length,
           itemBuilder: (BuildContext context, index) {
-            return GridViewHistoryPaySample(
+            return ExampleGridViewHistoryPay(
               carId: historyPayCars[index].id,
               update: update,
             );

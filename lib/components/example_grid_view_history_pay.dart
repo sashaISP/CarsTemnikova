@@ -3,22 +3,23 @@ import 'package:temnikova_cars/pages/card_car.dart';
 import '../model/cars.dart';
 import '../model/history_pay_list.dart';
 
-class GridViewHistoryPaySample extends StatefulWidget {
+class ExampleGridViewHistoryPay extends StatefulWidget {
   final int carId;
   final VoidCallback update;
-  const GridViewHistoryPaySample({super.key, required this.carId, required this.update});
+  const ExampleGridViewHistoryPay({super.key, required this.carId, required this.update});
   @override
-  State<GridViewHistoryPaySample> createState() => _GridViewHistoryPaySample(carId);
+  State<ExampleGridViewHistoryPay> createState() => _ExampleGridViewHistoryPay(carId);
 }
-class _GridViewHistoryPaySample extends State<GridViewHistoryPaySample> {
+class _ExampleGridViewHistoryPay extends State<ExampleGridViewHistoryPay> {
   final int carId;
-  _GridViewHistoryPaySample(this.carId);
+  _ExampleGridViewHistoryPay(this.carId);
   @override
 
   Widget build(BuildContext context) {
     return Container(
       alignment: Alignment.center,
       child: Card(
+        color: Colors.white70,
         clipBehavior: Clip.hardEdge,
         child: InkWell(
           onTap: () {

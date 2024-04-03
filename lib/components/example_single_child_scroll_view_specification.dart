@@ -56,7 +56,7 @@ class _ExampleSingleChildScrollViewCardCar extends State<ExampleSingleChildScrol
                   onPressed: () {
                     if (carsList[idCar].statusFavoriteCarsSButton == false) {
                       carsList[idCar].colorFavoriteCarsButton = Colors.pink;
-                      favoriteCars.add(carsList[idCar]);
+                      // favoriteCars.add(carsList[idCar]);
                       setState(() {
                         carsList[idCar].statusFavoriteCarsSButton = !carsList[idCar].statusFavoriteCarsSButton;
                       });
@@ -81,7 +81,7 @@ class _ExampleSingleChildScrollViewCardCar extends State<ExampleSingleChildScrol
                   onPressed: () {
                     if (carsList[idCar].statusCartCarsButton == false) {
                       carsList[idCar].colorCartCarsButton = Colors.indigoAccent;
-                      cartCars.add(carsList[idCar]);
+                      // cartCars.add(carsList[idCar]);
                       setState(() {
                         carsList[idCar].statusCartCarsButton = !carsList[idCar].statusCartCarsButton;
                       });

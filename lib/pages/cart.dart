@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:temnikova_cars/components/example_bottom_app_bar.dart';
-import 'package:temnikova_cars/components/example_grid_view.dart';
+import 'package:temnikova_cars/components/example_grid_view_cart.dart';
 import 'package:temnikova_cars/model/cart.dart';
 
 class CartCars extends StatefulWidget {
@@ -26,9 +26,9 @@ class _CartCars extends State<CartCars> {
         child: GridView.builder(
           itemCount: cartCars.length,
           itemBuilder: (BuildContext context, index) {
-            return ExampleGridView(
-              idCar: cartCars[index].id,
-              update: update,
+            return ExampleGridViewCart(
+                carId: cartCars[index].id,
+                updateSum: update,
             );
           },
           gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(

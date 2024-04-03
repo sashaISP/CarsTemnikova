@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:temnikova_cars/components/example_bottom_app_bar.dart';
-import 'package:temnikova_cars/components/example_grid_view.dart';
+import 'package:temnikova_cars/components/example_grid_view_home.dart';
 import 'package:temnikova_cars/model/cars.dart';
 
 class HomePage extends StatefulWidget {
@@ -19,7 +19,7 @@ class _HomePage extends State<HomePage> {
         child: GridView.builder(
           itemCount: carsList.length,
           itemBuilder: (BuildContext context, index) {
-            return ExampleGridView(
+            return ExampleGridViewHome(
               idCar: carsList[index].id,
               update: update,
             );
