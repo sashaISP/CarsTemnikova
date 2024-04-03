@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:temnikova_cars/components/example_bottom_app_bar.dart';
-import 'package:temnikova_cars/components/example_single_child_scroll_view_specification.dart';
+import 'package:temnikova_cars/components/example_single_child_scroll_view_card_car.dart';
 import 'package:temnikova_cars/model/cars.dart';
 
 
