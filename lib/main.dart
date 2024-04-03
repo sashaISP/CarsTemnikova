@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:temnikova_cars/pages/home.dart';
+import 'package:temnikova_cars/pages/welcome_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Автомобили',
-      home: HomePage(),
+      home: WelcomePage(),
     );
   }
 }

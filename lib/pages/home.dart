@@ -14,7 +14,7 @@ class _HomePage extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.indigo,
+        color: Colors.indigo[300],
         alignment: Alignment.center,
         child: GridView.builder(
           itemCount: carsList.length,
@@ -37,7 +37,7 @@ class _HomePage extends State<HomePage> {
         title: const Text(
           "Автомобили",
           style: TextStyle(
-            fontSize: 50,
+            fontSize: 45,
           ),
         ),
       ),

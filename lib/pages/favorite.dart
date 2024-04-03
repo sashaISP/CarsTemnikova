@@ -16,7 +16,7 @@ class _FavoriteCars extends State<FavoriteCars> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.indigo,
+        color: Colors.indigo[300],
         alignment: Alignment.center,
         child: GridView.builder(
           itemCount: favoriteCars.length,
@@ -39,7 +39,7 @@ class _FavoriteCars extends State<FavoriteCars> {
         title: const Text(
           "Избранное",
           style: TextStyle(
-            fontSize: 50,
+            fontSize: 45,
           ),
         ),
       ),

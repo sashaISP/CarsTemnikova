@@ -14,7 +14,7 @@ class _HistoryPay extends State<HistoryPay> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.indigo,
+        color: Colors.indigo[300],
         child: GridView.builder(
           padding: const EdgeInsets.all(5),
           gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(

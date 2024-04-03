@@ -21,7 +21,7 @@ class _CartCars extends State<CartCars> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.indigo,
+        color: Colors.indigo[300],
         alignment: Alignment.center,
         child: GridView.builder(
           itemCount: cartCars.length,
@@ -44,7 +44,7 @@ class _CartCars extends State<CartCars> {
         title: const Text(
           "Корзина",
           style: TextStyle(
-            fontSize: 50,
+            fontSize: 45,
           ),
         ),
       ),

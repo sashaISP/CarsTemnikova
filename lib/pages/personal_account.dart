@@ -15,7 +15,7 @@ class _PersonalAccount extends State<PersonalAccount> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.indigo,
+        color: Colors.indigo[300],
         child: SingleChildScrollView(
           child: Column(
             children: [
@@ -27,7 +27,6 @@ class _PersonalAccount extends State<PersonalAccount> {
                 textAlign: TextAlign.center,
                 style: const TextStyle(
                   fontSize: 30,
-                  color: Colors.grey,
                 ),
               ),
               Text(
@@ -35,7 +34,6 @@ class _PersonalAccount extends State<PersonalAccount> {
                 textAlign: TextAlign.center,
                 style: const TextStyle(
                   fontSize: 30,
-                  color: Colors.grey,
                 ),
               ),
               Text(
@@ -43,7 +41,6 @@ class _PersonalAccount extends State<PersonalAccount> {
                 textAlign: TextAlign.center,
                 style: const TextStyle(
                   fontSize: 30,
-                  color: Colors.grey,
                 ),
               ),
               Text(
@@ -51,7 +48,6 @@ class _PersonalAccount extends State<PersonalAccount> {
                 textAlign: TextAlign.center,
                 style: const TextStyle(
                   fontSize: 30,
-                  color: Colors.grey,
                 ),
               ),
               ElevatedButton(
