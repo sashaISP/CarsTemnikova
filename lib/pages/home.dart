@@ -3,28 +3,32 @@ import 'package:temnikova_cars/components/example_bottom_app_bar.dart';
 import 'package:temnikova_cars/components/example_grid_view.dart';
 import 'package:temnikova_cars/model/cars.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+  @override
+  State<HomePage> createState() => _HomePage();
+}
+class _HomePage extends State<HomePage> {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
         color: Colors.indigo,
         alignment: Alignment.center,
-        child: Expanded(
-          child: GridView.builder(
-            itemCount: carsList.length,
-            itemBuilder: (BuildContext context, index) {
-              return ExampleGridView(
-                idCar: carsList[index].id,
-              );
-            },
-            gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-              childAspectRatio: 0.55,
-              maxCrossAxisExtent: 203,
-            ),
-            padding: const EdgeInsets.all(3),
+        child: GridView.builder(
+          itemCount: carsList.length,
+          itemBuilder: (BuildContext context, index) {
+            return ExampleGridView(
+              idCar: carsList[index].id,
+              update: update,
+            );
+          },
+          gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+            childAspectRatio: 0.55,
+            maxCrossAxisExtent: 203,
           ),
+          padding: const EdgeInsets.all(3),
         ),
       ),
       appBar: AppBar(
@@ -41,7 +45,11 @@ class HomePage extends StatelessWidget {
         home: false,
         favoriteCars: true,
         cartCars: true,
+        personalAccount: true,
       ),
     );
+  }
+  void update() {
+    setState(() {});
   }
 }

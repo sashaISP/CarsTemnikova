@@ -1,0 +1,1 @@
+ C:\\Users\\hotko\\AndroidStudioProjects\\TemnikovaCars\\.dart_tool\\flutter_build\\f1a458c0cd2ebd643c283eca29f5bc4b\\native_assets.yaml: 

@@ -1,0 +1,17 @@
+com.example.temnikova_cars.app-core-1.10.1-0 C:\Users\hotko\.gradle\caches\transforms-3\0235b77ff31bafac24f24ba4755d72b8\transformed\core-1.10.1\res
+com.example.temnikova_cars.app-lifecycle-runtime-2.3.1-1 C:\Users\hotko\.gradle\caches\transforms-3\2454e6630756f136714cbb0c5cadfbb6\transformed\lifecycle-runtime-2.3.1\res
+com.example.temnikova_cars.app-jetified-window-1.0.0-beta04-2 C:\Users\hotko\.gradle\caches\transforms-3\29fe38a5fd6c3bf46cd8e59c2b63489e\transformed\jetified-window-1.0.0-beta04\res
+com.example.temnikova_cars.app-jetified-window-java-1.0.0-beta04-3 C:\Users\hotko\.gradle\caches\transforms-3\978180320ed1d29d66a82edc9d24751e\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.temnikova_cars.app-jetified-annotation-experimental-1.3.0-4 C:\Users\hotko\.gradle\caches\transforms-3\9916c0031c0bf84af67bab9d951a13f5\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.temnikova_cars.app-webkit-1.7.0-5 C:\Users\hotko\.gradle\caches\transforms-3\adaf08e725fed588ca14f2fa78fb9939\transformed\webkit-1.7.0\res
+com.example.temnikova_cars.app-browser-1.5.0-6 C:\Users\hotko\.gradle\caches\transforms-3\b1acc2901c10af5ded931c46dd883cb9\transformed\browser-1.5.0\res
+com.example.temnikova_cars.app-debug-7 C:\Users\hotko\AndroidStudioProjects\TemnikovaCars\android\app\src\debug\res
+com.example.temnikova_cars.app-main-8 C:\Users\hotko\AndroidStudioProjects\TemnikovaCars\android\app\src\main\res
+com.example.temnikova_cars.app-pngs-9 C:\Users\hotko\AndroidStudioProjects\TemnikovaCars\build\app\generated\res\pngs\debug
+com.example.temnikova_cars.app-resValues-10 C:\Users\hotko\AndroidStudioProjects\TemnikovaCars\build\app\generated\res\resValues\debug
+com.example.temnikova_cars.app-rs-11 C:\Users\hotko\AndroidStudioProjects\TemnikovaCars\build\app\generated\res\rs\debug
+com.example.temnikova_cars.app-mergeDebugResources-12 C:\Users\hotko\AndroidStudioProjects\TemnikovaCars\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.temnikova_cars.app-mergeDebugResources-13 C:\Users\hotko\AndroidStudioProjects\TemnikovaCars\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.temnikova_cars.app-merged_res-14 C:\Users\hotko\AndroidStudioProjects\TemnikovaCars\build\app\intermediates\merged_res\debug
+com.example.temnikova_cars.app-packaged_res-15 C:\Users\hotko\AndroidStudioProjects\TemnikovaCars\build\url_launcher_android\intermediates\packaged_res\debug
+com.example.temnikova_cars.app-packaged_res-16 C:\Users\hotko\AndroidStudioProjects\TemnikovaCars\build\webview_flutter_android\intermediates\packaged_res\debug

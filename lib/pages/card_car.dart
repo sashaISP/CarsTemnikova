@@ -1,26 +1,29 @@
 import 'package:flutter/material.dart';
 import 'package:temnikova_cars/components/example_bottom_app_bar.dart';
-import 'package:temnikova_cars/components/example_list_view_card_car.dart';
+import 'package:temnikova_cars/components/example_single_child_scroll_view_specification.dart';
 import 'package:temnikova_cars/model/cars.dart';
 
-class CardCar extends StatelessWidget {
+
+class CardCar extends StatefulWidget {
   final int id;
-  const CardCar({Key? key, required this.id}) : super(key: key);
+  final VoidCallback update;
+  const CardCar({super.key, required this.id, required this.update});
+  @override
+  State<CardCar> createState() => _CardCar(id);
+}
+class _CardCar extends State<CardCar> {
+  final int id;
+  _CardCar(this.id);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
         color: Colors.blue[100],
         alignment: Alignment.center,
-        child: Expanded(
-          child: ListView.builder(
-            itemCount: 1,
-            itemBuilder: (BuildContext context, int index) {
-              return ExampleListViewCardCar(
-                idCar: id,
-              );
-            },
-          ),
+        child: ExampleSingleChildScrollViewCardCar(
+          idCar: id,
+          update: widget.update,
         ),
       ),
       appBar: AppBar(
@@ -37,6 +40,7 @@ class CardCar extends StatelessWidget {
         home: true,
         favoriteCars: true,
         cartCars: true,
+        personalAccount: true,
       ),
     );
   }
