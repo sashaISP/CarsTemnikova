@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:temnikova_cars/components/example_bottom_app_bar.dart';
-
 import '../model/personal_data.dart';
 import 'history_pay.dart';
 
@@ -45,6 +44,13 @@ class _PersonalAccount extends State<PersonalAccount> {
               ),
               Text(
                 'Электронная почта: ${personalDataUser[0].email}',
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  fontSize: 30,
+                ),
+              ),
+              Text(
+                'Номер телефона: ${personalDataUser[0].phoneNumber}',
                 textAlign: TextAlign.center,
                 style: const TextStyle(
                   fontSize: 30,

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:temnikova_cars/components/example_bottom_app_bar.dart';
-import 'package:temnikova_cars/components/example_grid_view_cart.dart';
+import 'package:temnikova_cars/components/example_list_view_cart.dart';
 import 'package:temnikova_cars/model/cars.dart';
 import 'package:temnikova_cars/model/cart.dart';
 import 'package:temnikova_cars/model/history_pay_list.dart';
@@ -30,19 +30,14 @@ class _CartCars extends State<CartCars> {
         child: Column(
           children: [
             Expanded(
-              child: GridView.builder(
+              child: ListView.builder(
                 itemCount: cartCars.length,
-                itemBuilder: (BuildContext context, index) {
-                  return ExampleGridViewCart(
+                itemBuilder: (BuildContext context, int index) {
+                  return ExampleListViewCart(
                     carId: cartCars[index].id,
                     updateSum: update,
                   );
                 },
-                gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-                  childAspectRatio: 0.55,
-                  maxCrossAxisExtent: 203,
-                ),
-                padding: const EdgeInsets.all(3),
               ),
             ),
             Text(

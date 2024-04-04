@@ -4,6 +4,7 @@ class User {
   String firstName;
   String patronymic;
   String email;
+  int phoneNumber;
   String photo;
 
   User(
@@ -12,6 +13,7 @@ class User {
       this.firstName,
       this.patronymic,
       this.email,
+      this.phoneNumber,
       this.photo
       );
 }
@@ -22,6 +24,7 @@ List<User> personalDataUser = [
     'Александра',
     'Артёмовна',
     'sasha-tem@mail.ru',
+    89874560123,
     "https://clipground.com/images/rossberg-clipart-13.jpg",
   )
 ];

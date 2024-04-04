@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:temnikova_cars/pages/welcome_page.dart';
 import 'package:toggle_switch/toggle_switch.dart';
 import '../components/example_text_field.dart';
@@ -20,7 +21,7 @@ class _RegistrationState extends State<Registration> {
         backgroundColor: Colors.blueGrey,
         centerTitle: true,
         title: const Text(
-            'Регистрация',
+          'Регистрация',
           style: TextStyle(
             fontSize: 45,
           ),
@@ -45,6 +46,17 @@ class _RegistrationState extends State<Registration> {
                     );
                   },
                 ),
+              ),
+            ),
+            Expanded(
+              child: TextField(
+                decoration: const InputDecoration(
+                  labelText: " Номер телефона",
+                ),
+                keyboardType: TextInputType.number,
+                inputFormatters: <TextInputFormatter>[
+                  FilteringTextInputFormatter.digitsOnly
+                ], // Only numbers can be entered
               ),
             ),
             Expanded(

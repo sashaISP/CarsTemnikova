@@ -16,19 +16,34 @@ class _HomePage extends State<HomePage> {
       body: Container(
         color: Colors.indigo[300],
         alignment: Alignment.center,
-        child: GridView.builder(
-          itemCount: carsList.length,
-          itemBuilder: (BuildContext context, index) {
-            return ExampleGridViewHome(
-              idCar: carsList[index].id,
-              update: update,
-            );
-          },
-          gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-            childAspectRatio: 0.55,
-            maxCrossAxisExtent: 203,
-          ),
-          padding: const EdgeInsets.all(3),
+        child: Column(
+          children: [
+            const Padding(
+              padding: EdgeInsets.all(5),
+              child: TextField(
+                decoration: InputDecoration(
+                  border: OutlineInputBorder(),
+                  labelText: 'Поиск',
+                ),
+              ),
+            ),
+            Expanded(
+              child: GridView.builder(
+                itemCount: carsList.length,
+                itemBuilder: (BuildContext context, index) {
+                  return ExampleGridViewHome(
+                    idCar: carsList[index].id,
+                    update: update,
+                  );
+                },
+                gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+                  childAspectRatio: 0.55,
+                  maxCrossAxisExtent: 203,
+                ),
+                padding: const EdgeInsets.all(3),
+              ),
+            ),
+          ],
         ),
       ),
       appBar: AppBar(

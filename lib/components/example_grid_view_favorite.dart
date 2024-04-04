@@ -66,6 +66,7 @@ class _ExampleGridViewFavorite extends State<ExampleGridViewFavorite> {
                         fontSize: 21,
                       ),
                       textAlign: TextAlign.center,
+                      overflow: TextOverflow.ellipsis,
                     ),
                   ),
                 ),

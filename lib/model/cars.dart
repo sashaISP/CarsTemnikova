@@ -59,7 +59,7 @@ List<Car> carsList =
     false,
     Colors.black,
     true,
-  1
+    1
 ),
   Car(1,
       'Лада Гранта',
