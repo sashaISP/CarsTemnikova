@@ -1,21 +1,21 @@
 # Практическая работа "Российские автомобили"
 
-## Домашняя страница магазина автомобилей
+## Регистрация
 
-![image](https://github.com/sashaISP/TemnikovaCars/assets/160009685/30260b09-4b45-4ed9-a6dc-beff738a6b6d)
+![](https://github.com/sashaISP/CarsTemnikova/blob/main/gif/sign_up.gif)
 
-## Карточки машин
+## Авторизация
 
-![image](https://github.com/sashaISP/TemnikovaCars/assets/160009685/5edc331b-89f9-4627-81f5-fb5756710fcb)
+![](https://github.com/sashaISP/CarsTemnikova/blob/main/gif/login.gif)
 
-![image](https://github.com/sashaISP/TemnikovaCars/assets/160009685/c5a6bb29-a889-4295-93fc-2e9ee970f09c)
+## Страницы главная, избранное и карточка машины
 
-![image](https://github.com/sashaISP/TemnikovaCars/assets/160009685/83a179e4-3486-4157-9cd0-94c520fc8aa7)
+![](https://github.com/sashaISP/CarsTemnikova/blob/main/gif/home_favorite_card.gif)
 
-## Страница избранное
+## Страницы корзина, история покупок и личный кабинет
 
-![image](https://github.com/sashaISP/TemnikovaCars/assets/160009685/4e8bf9c4-ae9e-4dcb-bd9a-a2e7d30c8f32)
+![](https://github.com/sashaISP/CarsTemnikova/blob/main/gif/cart_history_pay_personal_account.gif)
 
-## Страница корзина
+## Модальное окно с покупкой
 
-![image](https://github.com/sashaISP/TemnikovaCars/assets/160009685/377bebf9-6ccc-4bbb-94d3-1816d63d317c)
+![](https://github.com/sashaISP/CarsTemnikova/blob/main/gif/model_window_buy.gif)
